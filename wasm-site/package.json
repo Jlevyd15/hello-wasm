@@ -1,0 +1,19 @@
+{
+  "name": "wasm-site",
+  "version": "1.0.0",
+  "description": "wasm test site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "author": "Jeremy Levy",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "@jlevyd15/hello-wasm": "^0.1.0"
+  }
+}
